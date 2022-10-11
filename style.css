@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+
+
+
+button {
+    cursor: pointer;
+    background-color: inherit;
+}
+
+body {
+    background-color: #EFF6FF;
+}
+
+.container-forPC {
+    margin: auto;
+    max-width: 1120px;
+}
+
+.container {
+    color: #2A4A5C;
+    height: 650px;
+    width: 940px;
+    margin: 40px;
+    background-color: white;
+    display: flex;
+}
+
+.imgBg{
+    width: 470px;
+    height: 650px;
+}
+
+.logo {
+    position: absolute;
+    height: 40px;
+    width: 110px;
+    margin-left: -440px;
+    margin-top: 15px;
+}
+
+.container__content {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container__title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.container__auth {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.auth__btn {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    width: 160px;
+    height: 25px;
+    color: white;
+}
+
+.fb {
+    background-color: #255A9B;
+}
+
+.fb>img {
+    height: 15px;
+    width: 15px;
+}
+
+.ld {
+    background-color: #0076B6;
+}
+
+.ld>img {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+}
+
+.auth__form {
+    display: flex;
+    gap: 30px;
+}
+
+.form {
+   padding-top: 12px;
+   padding-bottom: 2px;
+    border: 1px solid #927b7b;
+    width: 160px;
+    padding-left: 5px;
+}
+
+.form:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 5px 0px 0px -3px rgba(64, 124, 254, 0.911) inset;
+}
+
+.form__mail {
+    position: absolute;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.form__tel {
+    position: absolute;
+    margin-left: 195px;
+    font-size: 10px;
+}
+
+
+.container__typeInvest {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.typeInvest__checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.typeInvest__checkbox label {
+    cursor: pointer;
+}
+
+.auth__text {
+    text-align: center;
+    margin-right: 70px;
+    font-size: 10px;
+}
+
+.auth__text::before{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 0.5px;
+    background-color: #2A4A5C;
+    margin-left: -103px;
+    margin-top: 6px;
+}
+
+.auth__text::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 0.5px;
+    background-color: #2A4A5C;
+    margin-left: 2px;
+    margin-top: 6px;
+}
+
+.custom-radio-btn {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 1px solid #a5a5a5;
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+
+.real-radio-btn:checked+.custom-radio-btn {
+    border: 3px solid #3698FB;
+}
+
+.real-radio-btn {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.typeInvest__prompt{
+    font-size: 12px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 0px 20px rgb(185, 182, 182);
+    border-radius: 5px;
+}
+
+.prompt__text{
+    margin-left: 5px;
+}
+
+.create{
+    background-color: #3698FB;
+}
